@@ -1,0 +1,77 @@
+*{
+  margin: 0%;
+  padding: 0%;
+}
+.navbar{
+  display: flex;
+  flex-wrap: wrap;
+  width:100% ;
+  justify-content: space-between;
+  padding: 15px;
+  background-color:blue;
+  color: white;
+}
+.search-bar{
+  width:60%;
+  text-align:center;
+}
+.search-bar input{
+  width: 80%;
+  padding: 10px;
+  font-size: large;
+  
+}
+.brand{
+  font-weight: bolder;
+  width: 20%;
+  font-size: 30px;
+  text-align: center;
+}
+.cart{
+  font-weight: bolder;
+  width: 10%;
+  text-align: center;
+  font-size: large;
+}
+.user{
+  font-weight: bolder;
+  width: 10%;
+  text-align: center;
+
+  font-size: large;
+  
+
+}
+
+.nav-bar-wrapper{
+  margin-top: 50px;
+  margin-left: 40px;
+  margin-right: 50px;
+  display: flex;
+  text-align: center;
+  width: 90%;
+  justify-content: space-between;
+
+}
+div i{
+  margin: 10px;
+}
+.items img{
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  
+ }
+ div .items{
+  display: grid;
+
+}
+.carousel-inner div{
+  margin-top: 40px;
+  height: 300px;
+  
+}
+.carousel slide{
+  height: 100px;
+
+}
