@@ -3,6 +3,9 @@ import { getAllProducts } from "../Controllers/product.Controller.js"; // Adjust
 
 const router = express.Router();
 
+
+//comments
+
 router.get("/products", getAllProducts); // Define route to fetch all products
 
 export default router;
